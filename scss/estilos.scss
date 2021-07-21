@@ -1,0 +1,723 @@
+$primerColor:#5DDEB0;
+
+
+
+body{
+    font-family: 'Lato';
+    padding: 0px;
+    margin: 0px;
+    background: #F0F8FF;
+    text-align: center;
+  }
+
+  
+/* Estilos de Menu  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+header{
+    height: 75px;
+    /* background:rgb(85, 85, 84); */
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 10px;
+    background: #F0F8FF;
+    height: 50px;
+    padding-top: 10px;
+            ul {
+                list-style-type: none;
+                    li{
+                        margin-left: 5px;
+                        padding: 10px;
+                        display:inline-block;
+                        
+                    }
+
+            }
+  }
+  
+
+.headerBoots{
+    height: 70px;
+  }
+
+  .headerBoots__logo{
+    width: 50px;
+    position: relative;
+    left: 20px;
+    top: 0px;
+    
+  }
+
+  
+.hipervinculos{
+    display: inline-block;
+    width: 400px;
+
+        li{
+            float: left;
+            text-align: center;
+            align-items: center;
+        }
+
+        li:hover{
+            background: grey;
+            color:white;  
+          }
+
+          a{
+            display:block;
+          }   
+  }
+
+  
+.hipervinculos__linksMenu{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 700;
+  }
+  
+  
+  
+
+  .hipervinculosBoots{
+    margin-top: 20px;
+  }
+  
+  
+/* Animaciones Menu  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+
+@for $i from 1 through 5 {
+    .efectoelementomenu-#{$i}{
+        animation-name:efectoMeno ;
+        animation-duration: 4s +  $i;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+    }
+}
+
+
+
+/* Estilos Main xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/ 
+
+h1{
+
+    color:#3CDEA5;
+    font-weight:900;
+    font-size: 30px;
+  }
+
+  
+h2{
+    text-align: center;
+    color: #3CDEA5;
+    font-weight:900;
+    margin-bottom: 50px;
+  
+  }
+  
+
+  .videoMain{
+    width: 100%;
+  }
+
+  
+.imagenesMail{
+    width: 30%;
+    padding-bottom: 50px;
+  }
+  
+  
+  /* Logo Chat */
+  
+  
+  .logoChatPosition{
+    position: fixed;
+    top: 590px;
+    right: 10px;
+  }
+  
+  .iconoChat{
+    display: inline;
+    width: 60px;
+  }
+  
+  .iconoChat:hover{
+    cursor: pointer;
+  
+  }
+  
+  .logoChatPosition:hover{
+  cursor: pointer;
+  }
+  
+  .chatConversacion{
+    /* border: #000 solid 1px; */
+    border-radius: 10px;
+    background-color: rgb(215, 246, 247);
+    padding: 5px;
+  }
+  
+  
+  .ventanaChat{
+    width: 600px;
+  }
+  
+  
+  .chatUsuario{
+    width: 70%;
+    height: 100px;
+    background-color: rgb(215, 246, 247);
+    border:none;
+    border-radius: 10px;
+  }
+  
+  .imagenChat{
+    width: 125px;
+    height: 100px;
+  }
+  
+  .chatusuariocaja{
+    padding: 0;
+  }
+  
+  
+.tituloModificado{
+    font-size: 50px;
+    top: 120px;
+    position: absolute;
+    color:white;
+    font-weight:900;
+    margin-left: 10%;
+  }
+  
+
+
+
+  .seccionesMain{
+    padding-top: 50px;
+  } 
+
+
+  .seccionesMain:hover{
+    background: #E5E7E9;
+    /* transform: scale(1.1); */
+  } 
+  
+  
+
+
+  .seccionesMain__primerSection{
+    display: flex;
+    justify-content: end;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+
+        p{
+            width: 500px;
+            margin: 100px;
+            margin-bottom: 150px;
+        } 
+    }   
+
+
+
+        
+.seccionesMain__segundaSection{
+    display: flex;
+    justify-content: end;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+
+        p{
+            width: 500px;
+            margin: 100px;
+            margin-bottom: 150px;
+        }
+}
+
+
+video{
+    width: 1000px;
+  }
+  
+  
+
+
+  
+/* Estilos Formulario xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+
+  .fomulario{
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+  }
+
+  
+    
+  .fomulario__cajaformulario{
+    /* border: solid black 1PX; */
+    width: 600px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+        
+      
+  }
+
+  .cajaformulario__tituloForm{
+    color: $primerColor;
+}
+
+
+  .botonDejarMensaje{
+    margin-top: 50px;
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: darkslategray solid 1px;
+    font-family:Lato;
+    font-size: 20px;
+    font-weight:900;
+    border: none;
+    background:   #3CDEA5;
+    margin-bottom: 20px;
+    display: none;
+    text-decoration: none;
+}
+
+
+
+
+p{
+    font-weight: bold;
+  }
+  
+  
+  .formulario{
+  display: flex;
+  justify-content: center;
+  }
+  
+  
+  .formulario h2{
+  color: #000;
+  }
+  
+  /* .formulario input{
+    margin: 5px;
+  } */
+  
+  
+  
+  .formulario a{
+    text-decoration: none;
+  }
+  
+  
+  .botonesForm{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 10px;
+    background-color: #3CDEA5;
+    border: #3CDEA5 solid 1px;
+    font-size: 15px;
+    font-weight: 700;
+    }
+  
+  
+  .botonesForm:hover{
+    background: gray;
+    color: white;
+  }
+  
+  .formularioEnmensaje{
+    display:flex;
+    
+}
+
+
+
+
+/* Estilos Footer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.logodosRedes{
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+  }
+  
+  footer{
+    padding-top: 20px;
+    background: gray;
+  }
+  
+
+  .logodosRedesdos{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+
+
+  
+/* Estilos Seccion Contacto xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+
+.listContacto{
+    list-style: none;
+        li{
+            margin: 50px;
+            font-size: 20px;
+        }
+  }
+  
+
+  
+
+/* Estilos Seccion Paquete xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.paquetes{
+    width:  1200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    align-content: center;
+    }
+    
+    
+    .paquetes img{
+      width: 400px;
+      margin: 40px;
+    }
+    
+    .paquetes h3{
+      color: #3CDEA5;
+      font-weight:900;
+      font-size: 25px;
+    }
+    
+    .botonPaquete{
+      margin-top: 50px;
+      width: 500px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border: darkslategray solid 1px;
+      font-family:Lato;
+      font-size: 20px;
+      font-weight:900;
+      border: none;
+      background: #F0F8FF;
+    
+    
+    }
+    
+    
+    .botonPaquete:hover{
+    background: grey;
+      color: white;
+      cursor: pointer;
+    }
+    
+    .contenedorPaquetes{
+      display: flex;
+      justify-content: center;
+      flex-wrap:wrap;
+    }
+    
+    
+    /* Estilos RRHH xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+    
+    .pimerPuesto{
+      width: 300px;
+      padding: 10px;
+      background: #F0F8FF;
+      margin: 30px;
+      
+    }
+    
+    .pimerPuesto:hover{
+    
+      background: gray;
+      color: white;
+      cursor: pointer;
+      transform: scale(1.1);
+      
+    }
+    
+    .pimerPuesto h3{
+      font-weight:900;
+      font-size: 20px;
+    }
+    
+    .pimerPuesto p{
+      font-size: 15px;
+    }
+    
+    .pimerPuesto button{
+      width: 300PX;
+      padding: 10px;
+      border: none;
+      background: #F0F8FF;
+      font-family:Lato;
+      font-weight: 900;
+    }
+    
+    
+    .pimerPuesto button:hover{
+    background:#36E7F5;
+    color: white;
+    cursor: pointer;
+    }
+    
+    .contenedorPuestos{
+      display: flex;
+      flex-wrap:wrap;
+      justify-content: center;
+    }
+    
+    .videoRRHH{
+    width: 100%;
+    }
+    
+    
+    
+    /* Estilos Historia  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+    
+    .guiaHistoria{
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 400px 400px 400px 400px;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    
+    .imagenesHistoria{
+      margin: 50px;
+    
+      text-align: center;
+    }
+    
+    .imagenesHistoria p{
+      font-weight: 500;
+    }
+    
+    
+    
+    .contenedorFechas{
+      display: flex;
+      width: 30%;
+      height: 500px;
+      justify-content:center;
+      align-items: center;
+    }
+    
+    
+    
+    
+    .contenedorFechados{
+      display: flex;
+      width: 30%;
+      height: 500px;
+      justify-content:center;
+      align-items: center;
+    }
+    
+    
+    .fechas{
+      font-weight:900;
+      font-size: 50px;
+      /* border: solid #36E7F5 2px; */
+      padding: 50px;
+      background-image: linear-gradient(to right, #F0F8FF,#36E7F5);
+    }
+    
+    
+    /* .imagenesHistoriadentro{
+      height: 100px;
+      width: 500px;
+      background: rebeccapurple;
+    } */
+    
+    
+    .fechas:hover{
+    background: grey;
+    color: white;
+    cursor: pointer;
+    }
+
+    .textoHistoria{
+      text-align: start;
+    }
+    
+    
+    
+    
+    /* Media Query xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx */
+    
+    
+    /* Home para Tablets */
+    @media only screen and (max-width : 900px) {
+      
+      .tituloModificado{
+          font-size: 30px;
+      }
+    
+      .seccionesMain{
+         padding-left: 30px;
+         padding-right: 30px;
+    
+      }
+
+      .seccionesMain p{
+        font-size: 15px;
+      }
+    
+      .fomulario__cajaformulario{
+          display: none;
+      }
+    
+      
+      .botonDejarMensaje{
+      
+          display:block;
+      }
+    
+      .botonDejarMensaje:hover{
+      
+          background: gray;
+          color:white;
+      }
+    
+      .seccionesMain__primerSection p{
+          margin: 20px;
+      }
+    
+      .seccionesMain__segundaSection p{
+          margin: 20px;
+    
+      }
+    
+      .seccionesMain h2{
+          padding-bottom: 20px;
+    
+      }
+
+      .seccionesMain{
+          padding-bottom: 30px;
+    
+      }
+
+      .cajaformulariomensaje{
+          display:flex;
+      }
+    
+      .botonDejarMensajedos{
+          display: none;
+      }
+    
+    }
+    
+              
+    // .seccionesMain__primerSection{
+    //     flex-wrap:wrap;
+  
+    // }
+  
+    // .seccionesMain__segundaSection{
+    
+    // flex-wrap:wrap;
+    // }
+
+
+    // .imagenesMail{
+    //     width: 80%;
+    // }
+    
+    
+    
+    
+    
+    
+    @media only screen and (max-width : 550px) {
+      .botonDejarMensaje{
+          width: 300px;
+      }
+      .hipervinculos li{
+          font-size: 15px;
+      }
+    
+      .logoChatPosition{
+          display: none;
+      }
+      .hipervinculos{
+    
+          width: 300px;
+      }
+      header ul li{
+          padding: 5px;
+        
+      }
+      
+      .headerBoots__logo{
+          display: none;
+      }
+    
+          
+      .seccionesMain__primerSection{
+          flex-wrap:wrap;
+    
+      }
+    
+      .seccionesMain__segundaSection{
+      
+      flex-wrap:wrap;
+      }
+    
+      .imagenesMail{
+          width: 80%;
+          padding-bottom: 30px;
+      }
+      
+      .seccionesMain__segundaSection p{
+          margin-bottom: 30px;
+          margin: 10px;
+      }
+    
+      .seccionesMain__primerSection p{
+          margin: 10px;
+      }
+    
+
+      
+    
+    }  
+    
+    
+    
+    
+    
+    @keyframes efectoMeno{
+        0% {color: #F0F8FF;}
+    
+        100%{color: black;}
+    }
+ 
+
+ 
+  
+  
+  
