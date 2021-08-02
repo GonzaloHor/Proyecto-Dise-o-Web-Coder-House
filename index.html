@@ -17,7 +17,7 @@
 <body>
 
 
-
+    <!-- Logo para chat -->
     <section class="logoChatPosition">
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/charla.png" alt="" class="iconoChat"></button>
     </section>
@@ -26,66 +26,53 @@
 
 
 
-<!-- Modal -->
-<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog ">
-      <div class="modal-content ventanaChat">
-        <div class="modal-header">
+        <!-- Modal -->
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog ">
+        <div class="modal-content ventanaChat">
+            <div class="modal-header">
 
-          <h5 class="modal-title" id="exampleModalLabel">Chatea con Nosotros</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          
-        </div>
+            <h5 class="modal-title" id="exampleModalLabel">Chatea con Nosotros</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            
+            </div>
 
-        <div class="modal-body d-blex container row">
+            <div class="modal-body d-blex container row">
 
-            <div class="d-blex container row">
-                <div class=" col-2"><img  src="img/servicio-al-cliente.png" alt="" width="60px"></div>
-                <div class="col-10" ><p class="chatConversacion">¡Hola soy Juan! <br> ¿Como puedo ayudarte?</p></div>
+                <div class="d-blex container row">
+                    <div class=" col-2"><img  src="img/servicio-al-cliente.png" alt="" width="60px"></div>
+                    <div class="col-10" ><p class="chatConversacion">¡Hola soy Juan! <br> ¿Como puedo ayudarte?</p></div>
+                </div>
+
+                
             </div>
 
             
-        </div>
+            <div class="modal-footer">
 
+                <div class="d-blex container row chatusuariocaja">
+
+                    <div class="row mb-3 d-blex flex-nowrap justify-content-end">
+                        <input placeholder="Mensaje" class="chatUsuario form-control" type="text">
+                        <img src="img/chatting.png" class="imagenChat" alt="">
+                    </div>
+                    
         
-        <div class="modal-footer">
 
-            <div class="d-blex container row chatusuariocaja">
-
-                <div class="row mb-3 d-blex flex-nowrap justify-content-end">
-                    <input placeholder="Mensaje" class="chatUsuario form-control" type="text">
-                    <img src="img/chatting.png" class="imagenChat" alt="">
-                </div>
-                
-      
-
-                <div class="">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="button" class="btn btn-primary">Enviar mensaje</button>
+                    <div class="">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Enviar mensaje</button>
+                    </div>
                 </div>
             </div>
         </div>
-      </div>
+        </div>
     </div>
-  </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
     <!-- Menu de navegación -->
     <header class="headerBoots">
-        <img src="img/marketing.png" alt="Logo" class="headerBoots__logo" width="50px">
+       <a href="index.html"><img src="img/marketing.png" alt="Logo" class="headerBoots__logo" width="50px"></a> 
         <nav>
             <ul class="hipervinculos hipervinculosBoots">
                 <a href="historia.html" class="hipervinculos__linksMenu efectoelementomenu-2"><li>Historia</li></a>
@@ -99,7 +86,6 @@
     
     <!-- Cuerpo de la pagina -->
     <main>
-        
         <section class="seccionInicio">
             <h1 class="tituloModificado efectotitulo">Impulsa tu Marca</h1>
             <video src="videos/Ipad - 2988.mp4" class="videoMain"  autoplay loop muted></video>
@@ -133,69 +119,69 @@
         
         <section class="formulario container d-blex"> 
 
-        <a href="mensaje.html" ><button class="botonDejarMensaje ">Dejar un mensaje</button></a> 
-        <div class="fomulario__cajaformulario">
-            
-            <h2 class="cajaformulario__tituloForm">Dejanos tu mensaje</h2>
-            <form action="#" class=" container">
-                
-                    <div class="row">
-
-                   
-                            <div class="col-12">
-                                <label for="usuario" class="form-label mt-3">Tipo de Usuario</label>
-                                <select name="usuario" id="" class="tipoUsuario form-select">
-                                    <option value="empresa">Empresa</option>
-                                    <option value="particular">Particular</option>
-                                    </select>
-                            </div>
+                <a href="mensaje.html" ><button class="botonDejarMensaje ">Dejar un mensaje</button></a> 
+                <div class="fomulario__cajaformulario">
+                    
+                    <h2 class="cajaformulario__tituloForm">Dejanos tu mensaje</h2>
+                    <form action="#" class=" container">
                         
-                        
-                            <div class="col-6">
+                            <div class="row">
 
-                                <label for="nombre" class="form-label mt-3">Nombre</label>
-                                <input type="text" name="nombre" id="" class="form-control">
+                        
+                                    <div class="col-12">
+                                        <label for="usuario" class="form-label mt-3">Tipo de Usuario</label>
+                                        <select name="usuario" id="" class="tipoUsuario form-select">
+                                            <option value="empresa">Empresa</option>
+                                            <option value="particular">Particular</option>
+                                            </select>
+                                    </div>
                                 
-                            </div>
-                    
-                             <div class="col-1"></div>
-                    
-                            <div class="col-5">
+                                
+                                    <div class="col-6">
 
-                                <label for="telefono" class="form-label mt-3">Telefono</label>
-                                <input type="tel" name="telefono" id="" class="form-control">
-
-                            </div>
-
-                            <div class="col-12">
-                                <label for="email" class="form-label mt-3">Mail</label>
-                                <input type="email" name="mail" id="" class="form-control">
-                            </div>
-          
-                            <div class="col-12">  
-                                <div class="mt-3 mb-3">Dejanos tu mensaje:</div>
-                                <textarea class="form-control" name="mensaje" id="" cols="100" rows="10" style="height: 100px"></textarea>
-                            </div>
+                                        <label for="nombre" class="form-label mt-3">Nombre</label>
+                                        <input type="text" name="nombre" id="" class="form-control">
+                                        
+                                    </div>
                             
-                            <div class="col-12">
-                                
-                                <label class="form-check-labe mt-3 mb-3" for="aceptar">Acepto Recibir Mail</label>
-                                <input class="form-check-input mt-3 mb-3" type="checkbox" name="aceptar" value="1">
-                                
-                            </div>
+                                    <div class="col-1"></div>
+                            
+                                    <div class="col-5">
+
+                                        <label for="telefono" class="form-label mt-3">Telefono</label>
+                                        <input type="tel" name="telefono" id="" class="form-control">
+
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="email" class="form-label mt-3">Mail</label>
+                                        <input type="email" name="mail" id="" class="form-control">
+                                    </div>
+                
+                                    <div class="col-12">  
+                                        <div class="mt-3 mb-3">Dejanos tu mensaje:</div>
+                                        <textarea class="form-control" name="mensaje" id="" cols="100" rows="10" style="height: 100px"></textarea>
+                                    </div>
+                                    
+                                    <div class="col-12">
+                                        
+                                        <label class="form-check-labe mt-3 mb-3" for="aceptar">Acepto Recibir Mail</label>
+                                        <input class="form-check-input mt-3 mb-3" type="checkbox" name="aceptar" value="1">
+                                        
+                                    </div>
+                            
+                                    <div class="col-12">
+                                        <input class="botonesForm"  type="submit" value="Enviar" >
+                                        
+                                        <input class="botonesForm"  type="reset" value="Resetar" >
+                                    </div>
                     
-                            <div class="col-12">
-                                <input class="botonesForm"  type="submit" value="Enviar" >
-                                
-                                <input class="botonesForm"  type="reset" value="Resetar" >
-                            </div>
-            
-            
+                    
+                    </div>
+                    
+                </form>
+                
             </div>
-            
-        </form>
-        
-    </div>
         </section>
 
     </main>
