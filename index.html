@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta name="description" content="Implusa tu marca a niveles nunca imaginados, y potencia tus ventas.">
     <meta name="keywords" content="Emprendimiento, Impulsar Marca, marketing, economia, empresas, emprendimientos latinoamerica, mercado, analisis de mercado, tecnología, emprendimientos tecnologícos, nueva empresa, ganancias, impetar tecnologías, nuevos clientes, mas ventas">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -16,17 +14,56 @@
 </head>
 <body>
 
+   <header>
+    <!-- Menu de navegación -->
+    <div class="headerBoots header">
+            <a href="index.html"><img src="img/marketing.png" alt="Logo" class="headerBoots__logo" width="50px"></a> 
+            <nav>
+                <ul class="hipervinculos hipervinculosBoots">
+                    <a href="historia.html" class="hipervinculos__linksMenu efectoelementomenu-2"><li>Historia</li></a>
+                    <a href="contacto.html" class="hipervinculos__linksMenu efectoelementomenu-3"><li>Contacto</li></a>
+                    <a href="paquetes.html" class="hipervinculos__linksMenu efectoelementomenu-4"><li>Paquetes</li></a>
+                    <a href="rrhh.html" class="hipervinculos__linksMenu efectoelementomenu-5"><li>RRHH</li></a>
+                </ul>
+            </nav>
+        </div>
+        
+        <!-- Menu de navegación para smartphones-->
+        <div class="collapse teclaMenu bg-dark d-blex justify-content-center nav" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4 d-blex justify-content-center navbarMobile" >
+                <div class=" ">
+                    <nav>
+                        <ul>
+                            <a href="contacto.html" class="hipervinculos__linksMenuResponsive "><li>Contacto</li></a>
+                            <a href="historia.html" class="hipervinculos__linksMenuResponsive "><li>Historia</li></a>
+                            <a href="paquetes.html" class="hipervinculos__linksMenuResponsive "><li>Paquetes</li></a>
+                            <a href="rrhh.html" class="hipervinculos__linksMenuResponsive "><li>RRHH</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-dark bg-dark teclaMenu">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
 
+    </header>
+    
+
+    <!-- Cuerpo de la pagina -->
+    <main>
+        
     <!-- Logo para chat -->
     <section class="logoChatPosition">
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="img/charla.png" alt="" class="iconoChat"></button>
     </section>
 
 
-
-
-
-        <!-- Modal -->
+    <!-- Modal -->
     <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog ">
         <div class="modal-content ventanaChat">
@@ -56,9 +93,6 @@
                         <input placeholder="Mensaje" class="chatUsuario form-control" type="text">
                         <img src="img/chatting.png" class="imagenChat" alt="">
                     </div>
-                    
-        
-
                     <div class="">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
                         <button type="button" class="btn btn-primary">Enviar mensaje</button>
@@ -70,22 +104,6 @@
     </div>
 
 
-    <!-- Menu de navegación -->
-    <header class="headerBoots">
-       <a href="index.html"><img src="img/marketing.png" alt="Logo" class="headerBoots__logo" width="50px"></a> 
-        <nav>
-            <ul class="hipervinculos hipervinculosBoots">
-                <a href="historia.html" class="hipervinculos__linksMenu efectoelementomenu-2"><li>Historia</li></a>
-                <a href="contacto.html" class="hipervinculos__linksMenu efectoelementomenu-3"><li>Contacto</li></a>
-                <a href="paquetes.html" class="hipervinculos__linksMenu efectoelementomenu-4"><li>Paquetes</li></a>
-                <a href="rrhh.html" class="hipervinculos__linksMenu efectoelementomenu-5"><li>RRHH</li></a>
-            </ul>
-        </nav>
-    </header>
-    
-    
-    <!-- Cuerpo de la pagina -->
-    <main>
         <section class="seccionInicio">
             <h1 class="tituloModificado efectotitulo">Impulsa tu Marca</h1>
             <video src="videos/Ipad - 2988.mp4" class="videoMain"  autoplay loop muted></video>
@@ -95,15 +113,16 @@
             <h2>Conecta con tus clientes</h2>
             <div  class="seccionesMain__primerSection">
                 <img src="img/trabajo-en-equipo.png" alt="Cliente" class="imagenesMail">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta natus perspiciatis ex maiores deserunt similique repudiandae cumque nisi. Exercitationem laboriosam reprehenderit unde, nesciunt ducimus praesentium illum quae architecto possimus laborum.</p>
+                <p>
+                    Conectar con los clientes a nivel personal implica cambiar la manera en que los concibes de, aquellos con quienes se hace una mera transacción comercial a ver personas con las que es posible hacer vínculos emocionales.</p>
             </div>
         </section>
 
         <section class="seccionesMain">
             <h2>Implementas nuevas tecnologías</h2>
             <div class="seccionesMain__segundaSection">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolores earum? Mollitia laboriosam voluptatum ut hic! Sit aliquid necessitatibus a suscipit quia dolore, inventore est exercitationem! Praesentium dignissimos voluptates dolores.</p>
-                <img src="img/aplicacion-movil.png" alt="" class="imagenesMail">
+                <p>La tecnología digital no solo simplifica el funcionamiento de las personas, sino que también aumenta la colaboración dentro de un equipo y permite a los empleadores obtener información confiable para tomar las decisiones correctas.</p>
+                <img src="img/aplicacion-movil.png" alt="" class="imagenesMail imagenCelular">
             </div>
         </section>
 
@@ -111,7 +130,7 @@
             <h2>Forga un futuro para tu empresa</h2>
             <div class="seccionesMain__primerSection">
                 <img src="img/technology.png" alt="" class="imagenesMail">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolores earum? Mollitia laboriosam voluptatum ut hic! Sit aliquid necessitatibus a suscipit quia dolore, inventore est exercitationem! Praesentium dignissimos voluptates dolores.</p>
+                <p>La tecnología digital está transformando casi todos los dominios en los negocios. Muchas empresas ya se han beneficiado con el uso de estas tecnologías y han mejorado la eficiencia, la productividad y las perspectivas de crecimiento.</p>
             </div>
         </section>
         
@@ -194,9 +213,10 @@
             <a href="#"><img src="img/Redes/linkedin.png" alt="logoFacebook" class="logodosRedes"></a>
             <a href="#"><img src="img/Redes/logotipo-de-instagram.png" alt="logoFacebook" class="logodosRedes"></a>
         </footer>
-
-
+        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </body>
 </html> 

@@ -6,7 +6,7 @@ body {
   text-align: center; }
 
 /* Estilos de Menu  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
-header {
+.header {
   height: 75px;
   /* background:rgb(85, 85, 84); */
   align-items: center;
@@ -16,9 +16,9 @@ header {
   background: #F0F8FF;
   height: 50px;
   padding-top: 10px; }
-  header ul {
+  .header ul {
     list-style-type: none; }
-    header ul li {
+    .header ul li {
       margin-left: 5px;
       padding: 10px;
       display: inline-block; }
@@ -51,8 +51,41 @@ header {
   color: black;
   font-weight: 700; }
 
+.headerBootsRRHH {
+  height: 50px; }
+
+.hipervinculos__linksMenuResponsive {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-weight: 700;
+  margin: 0px;
+  padding: 0px; }
+
+.hipervinculos__linksMenuResponsive:focus {
+  color: black; }
+
+.navbarMobile {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0px; }
+
 .hipervinculosBoots {
   margin-top: 20px; }
+
+.menuMedia {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  background: #F0F8FF; }
+
+.menuMedia:focus {
+  background: gray;
+  color: white; }
+
+.teclaMenu {
+  display: none;
+  margin: 0px; }
 
 /* Animaciones Menu  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 .efectoelementomenu-1 {
@@ -87,6 +120,7 @@ header {
 
 /* Estilos Main xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 h1 {
+  margin-top: 10px;
   color: #3CDEA5;
   font-weight: 900;
   font-size: 30px; }
@@ -202,7 +236,7 @@ video {
 
 .botonDejarMensaje {
   margin-top: 50px;
-  width: 500px;
+  width: 400px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: darkslategray solid 1px;
@@ -431,16 +465,16 @@ footer {
   .botonDejarMensajedos {
     display: none; } }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 450px) {
   .botonDejarMensaje {
-    width: 300px; }
+    width: 200px; }
   .hipervinculos li {
     font-size: 15px; }
   .logoChatPosition {
     display: none; }
   .hipervinculos {
     width: 300px; }
-  header ul li {
+  .header ul li {
     padding: 5px; }
   .headerBoots__logo {
     display: none; }
@@ -455,7 +489,25 @@ footer {
     margin-bottom: 30px;
     margin: 10px; }
   .seccionesMain__primerSection p {
-    margin: 10px; } }
+    margin: 10px; }
+  .tituloModificado {
+    font-size: 30px;
+    top: 170px;
+    left: 40px; }
+  .tituloModificadorrhh {
+    font-size: 30px;
+    left: 0px;
+    top: 100px;
+    margin-left: 0px; }
+  .imagenCelular {
+    margin-top: 40px; }
+  .teclaMenu {
+    display: flex; }
+  .headerBoots {
+    display: none; }
+  .headerBootsRRHH {
+    display: flex;
+    justify-content: start; } }
 
 @keyframes efectoMeno {
   0% {
