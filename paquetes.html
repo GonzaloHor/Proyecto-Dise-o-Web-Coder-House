@@ -28,30 +28,30 @@
                 </nav>
             </div>
             
-            <!-- Menu de navegación para smartphones-->
-            <div class="collapse teclaMenu bg-dark d-blex justify-content-center nav" id="navbarToggleExternalContent">
-                <div class="bg-dark p-4 d-blex justify-content-center navbarMobile" >
-                    <div class=" ">
-                        <nav>
-                            <ul>
-                                <a href="index.html" class="hipervinculos__linksMenuResponsive "><li>Inicio</li></a>
-                                <a href="historia.html" class="hipervinculos__linksMenuResponsive "><li>Historia</li></a>
-                                <a href="contacto.html" class="hipervinculos__linksMenuResponsive "><li>Contacto</li></a>
-                                <a href="rrhh.html" class="hipervinculos__linksMenuResponsive "><li>RRHH</li></a>
-                            </ul>
-                        </nav>
-                    </div>
+                <!-- Menu de navegación para smartphones-->
+        <div class="collapse teclaMenu bg-dark d-blex justify-content-center nav" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4 d-blex  tamañoMenu" >
+                <div class=" ">
+                    <nav>
+                        <ul>
+                                <a href="index.html" class="hipervinculos__linksMenuResponsive "><li class="espacio">Inicio</li></a>
+                                <a href="contacto.html" class="hipervinculos__linksMenuResponsive "><li class="espacio">Contacto</li></a>
+                                <a href="historia.html" class="hipervinculos__linksMenuResponsive "><li class="espacio">Historia</li></a>
+                                <a href="rrhh.html" class="hipervinculos__linksMenuResponsive "><li class="espacio">RRHH</li></a>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <nav class="navbar navbar-dark bg-dark teclaMenu">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-            </nav>
+        </div>
+        <nav class="navbar navbar-dark bg-dark teclaMenu">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
     
-        </header>
+    </header>
 
     <!-- Cuerpo de la pagina -->
     <main>
@@ -107,24 +107,48 @@
 
 
     
-        <h1>Conoce nuestros paquetes</h1>
+        <h1 class="titulosPaginas">Conoce nuestros paquetes</h1>
         
         <div class="contenedorPaquetes">
-            <section class="paquetes row">
-                <div class="col-lg-6 col-md-12 ">
-                    <img src="img/christin-hume-Hcfwew744z4-unsplash.jpg" alt="">
+            <section class="paquetes row ">
+                <div class="col-lg-6 col-md-12">
+                    <img src="img/christin-hume-Hcfwew744z4-unsplash.jpg" alt="" class="paquetesTamaño">
                 </div>
                 <div class="col-lg-6 col-md-12 ">
                     <h2>Paquete Basico</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nulla doloremque commodi sed obcaecati ullam harum sunt placeat sit aliquam numquam, temporibus, quos voluptatem fugit cum eveniet ab hic ad non laboriosam dolorum accusamus. Dignissimos accusamus accusantium earum inventore deleniti.</p>
+                    <p class="paquetesTamaño">
+                        Desarrolle su plan de negocios y comunicaciones alojando su información y aplicaciones corporativas en la nube público – privada más extensa de LATAM.
+                        <br>
+                        <br>
+                        <strong>- IFX Cloud Server</strong> 
+                        <br> 
+                        <strong>- IFX Datacenter Dedicated Server</strong>
+                        <br> 
+                        <strong>- IFX Datacenter Colocation</strong>
+                        <br> 
+                        <strong>- IFX Cloud Contact Center</strong>
+                    </p>
                     <button class="botonPaquete">Comenzar con este paquete</button>
                 </div>
             </section>
 
-            <section class="paquetes row">
-                <div class="col-lg-6 col-md-12 ">
+            <section class="paquetes row ">
+                <div class="col-lg-6 col-md-12">
                     <h2>Paquete Avansado</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nulla doloremque commodi sed obcaecati ullam harum sunt placeat sit aliquam numquam, temporibus, quos voluptatem fugit cum eveniet ab hic ad non laboriosam dolorum accusamus. Dignissimos accusamus accusantium earum inventore deleniti.</p>
+                    <p class="paquetesTamaño">
+                        Conecte toda su empresa sin importar la ubicación y sin alterar la continuidad de su negocio, por medio del transporte de datos altamente eficiente con amplias velocidades de internet.
+                        <br>
+                        <br>
+                        <strong>- IFX Internet Premium</strong> 
+                        <br> 
+                        <strong>- IFX Data Transport</strong>
+                        <br> 
+                        <strong>- FX Clear Path</strong>
+                        <br> 
+                        <strong>- IFX Backup Lite</strong>
+                        <br> 
+                        <strong>- IFX SD-WAN</strong>
+                    </p>                    
                     <button class="botonPaquete">Comenzar con este paquete</button>
                 </div>
                 <div class="col-lg-6 col-md-12 ">
@@ -132,14 +156,27 @@
             </div>
             </section>
 
-            <section class="paquetes row">
+            <section class="paquetes row ">
                 <div class="col-lg-6 col-md-12 ">
                 <img src="img/carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt="">
                 </div>
                 <div class="col-lg-6 col-md-12 ">
                     <h2>Paquete Premiun</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nulla doloremque commodi sed obcaecati ullam harum sunt placeat sit aliquam numquam, temporibus, quos voluptatem fugit cum eveniet ab hic ad non laboriosam dolorum accusamus. Dignissimos accusamus accusantium earum inventore deleniti.</p>
-                    <button class="botonPaquete">Comenzar con este paquete</button>
+                    <p class="paquetesTamaño">
+                        Potencie la seguridad de sus contenidos corporativos y cuente con una gama extensa de servicios profesionales y de respaldo para sus aplicativos empresariales.
+                        <br>
+                        <br>
+                        <strong>- IFX Wifi as a Service</strong> 
+                        <br> 
+                        <strong>- IFX Security Solutions</strong>
+                        <br> 
+                        <strong>- Professional Services</strong>
+                        <br> 
+                        <strong>- IFX Watcher</strong>
+                        <br> 
+                        <strong>- IFX Smart-comm </strong>
+                    </p>                    
+                <button class="botonPaquete">Comenzar con este paquete</button>
                 </div>
             </section>
 
@@ -151,11 +188,13 @@
         <!-- Pie de pagina -->
         
         <footer>
-            <p class="tituloFooter">Siguenos en nuestras redes</p> 
-            <a href="#"><img src="img/Redes/facebook.png" alt="logoFacebook" class="logodosRedes logodosRedesdos"></a>
-            <a href="#"><img src="img/Redes/linkedin.png" alt="logoFacebook" class="logodosRedes logodosRedesdos" ></a>
-            <a href="#"><img src="img/Redes/logotipo-de-instagram.png" alt="logoFacebook" class="logodosRedes logodosRedesdos"></a>
+            <p class="tituloFooter">Siguenos en nuestras redes</p>
+            <a href="#"><img src="img/Redes/facebook.png" alt="logoFacebook" class="logodosRedes"></a>
+            <a href="#"><img src="img/Redes/linkedin.png" alt="logoFacebook" class="logodosRedes"></a>
+            <a href="#"><img src="img/Redes/logotipo-de-instagram.png" alt="logoFacebook" class="logodosRedes"></a>
         </footer>
+
+
 
           
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

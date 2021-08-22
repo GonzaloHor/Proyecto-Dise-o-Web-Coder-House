@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Forma parte de nuestra gran empresa y genera valor">
     <meta name="keywords" content="Emprendimiento, Impulsar Marca, marketing, economia, empresas, emprendimientos latinoamerica, mercado, analisis de mercado, tecnología, emprendimientos tecnologícos, nueva empresa, ganancias, impetar tecnologías, nuevos clientes, mas ventas">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,18 +15,42 @@
 <body>
 
     <header>
-        <div class="headerBoots headerBootsRRHH header">
-            <a href="index.html"><img src="img/marketing.png" alt="Logo" class="headerBoots__logo" width="50px"></a> 
-            <nav>
-                <ul class="hipervinculos hipervinculosBoots">
-                    <a href="index.html" class="hipervinculos__linksMenu efectoelementomenu-1"><li>Inicio</li></a>
-                    <a href="historia.html" class="hipervinculos__linksMenu efectoelementomenu-2"><li>Historia</li></a>
-                    <a href="contacto.html" class="hipervinculos__linksMenu efectoelementomenu-3"><li>Contacto</li></a>
-                    <a href="paquetes.html" class="hipervinculos__linksMenu efectoelementomenu-4"><li>Paquetes</li></a>
-                </ul>
-            </nav>
+        <!-- Menu de navegación -->
+        <div class="headerBoots header">
+                <a href="index.html"><img src="img/marketing.png" alt="Logo" class="headerBoots__logo" width="50px"></a> 
+                <nav>
+                    <ul class="hipervinculos hipervinculosBoots">
+                        <a href="index.html" class="hipervinculos__linksMenu efectoelementomenu-4"><li>Inicio</li></a>
+                        <a href="historia.html" class="hipervinculos__linksMenu efectoelementomenu-2"><li>Historia</li></a>
+                        <a href="contacto.html" class="hipervinculos__linksMenu efectoelementomenu-3"><li>Contacto</li></a>
+                        <a href="paquetes.html" class="hipervinculos__linksMenu efectoelementomenu-5"><li>Paqueto</li></a>
+                    </ul>
+                </nav>
+            </div>
+            
+                <!-- Menu de navegación para smartphones-->
+        <div class="collapse teclaMenu bg-dark d-blex justify-content-center nav" id="navbarToggleExternalContent">
+            <div class="bg-dark p-4 d-blex  tamañoMenu" >
+                <div class=" ">
+                    <nav>
+                        <ul>
+                                <a href="index.html" class="hipervinculos__linksMenuResponsive "><li class="espacio">Inicio</li></a>
+                                <a href="contacto.html" class="hipervinculos__linksMenuResponsive "><li class="espacio">Contacto</li></a>
+                                <a href="historia.html" class="hipervinculos__linksMenuResponsive "><li class="espacio">Historia</li></a>
+                                <a href="paquetes.html" class="hipervinculos__linksMenuResponsive "><li class="espacio">Paquetes</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
-
+        <nav class="navbar navbar-dark bg-dark teclaMenu">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    
     </header>
     
 
@@ -37,75 +62,82 @@
         </section>
 
 
-        <h2>Puestos</h2>
+        <h1 class="titulosPaginas">Puestos</h1>
         <div class="contenedorPuestos">
 
             <section>
                 <div class=pimerPuesto>
-                <h3>Ingeñero en sistemas</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium fuga quod molestias sed corrupti nemo at voluptas praesentium, minus dolores optio in provident, nulla dolore distinctio sunt dignissimos quis</p>
-                <button>Conocer Mas</button>
+                <h3>Ingeniero en sistemas</h3>
+                <p>
+                    Como miembro de nuestro equipo de desarrollo de infraestructura, se sumergirá directamente en el apoyo y la creación de soluciones innovadoras que promuevan negocios y carreras. Se unirá a un equipo de tecnólogos . </p>
+                <button >Conocer Más</button>
             </div>
         </section>
         <section>
             <div class=pimerPuesto>
                 <h3>Analista de riesgos</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium fuga quod molestias sed corrupti nemo at voluptas praesentium, minus dolores optio in provident, nulla dolore distinctio sunt dignissimos quis</p>
-                <button>Conocer Mas</button>
+                <p>Nuestro negocio Fintech ofrece una propuesta de valor integral, que busca democratizar los servicios financieros y satisfacer las necesidades de nuestros más de 60 millones de usuarios y usuarias de todo el mundo.</p>
+                <button >Conocer Más</button>
             </div>
         </section>
         <section>
             <div class=pimerPuesto>
-                <h3>Desarrolladore Front-End</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium fuga quod molestias sed corrupti nemo at voluptas praesentium, minus dolores optio in provident, nulla dolore distinctio sunt dignissimos quis</p>
-                <button>Conocer Mas</button>
+                <h3>Desarrollador Front-End</h3>
+                <p>Somos la empresa número de eCommerce en Argentina, estamos en un proceso de crecimiento y expansión, por lo tanto, queremos que seas parte de nuestro equipo. Buscamos Desarrolladores Front-End Ssr  para formar parte del equipo.</p>
+                <button >Conocer Más</button>
             </div>
         </section>
         <section>
             <div class=pimerPuesto>
                 <h3>Desarrollador Back-End</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium fuga quod molestias sed corrupti nemo at voluptas praesentium, minus dolores optio in provident, nulla dolore distinctio sunt dignissimos quis</p>
-                <button>Conocer Mas</button>
+                <p>¡En GH Tech te estamos buscando para crecer aún más! Estamos en búsqueda de un Developer Back End, para sumarse a nuestra Wallet regional. ¿Ya nos conoces? Somos la empresa de medios de pago de Falabella Financiero, operando LATAM</p>
+                <button >Conocer Más</button>
             </div>
         </section>
         <section>
             <div class=pimerPuesto>
                 <h3>Arquitecto de Software</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium fuga quod molestias sed corrupti nemo at voluptas praesentium, minus dolores optio in provident, nulla dolore distinctio sunt dignissimos quis</p>
-                <button>Conocer Mas</button>
+                <p>La experimentación y la innovación son fundamentales para Eventbrite. A medida que nuestra plataforma continúa creciendo y desarrollándose, buscamos un ingeniero de software creativo para utilizar una variedad de tecnologías.</p>
+                <button >Conocer Más</button>
             </div>
         </section>
         <section>
             <div class=pimerPuesto>
-                <h3>Ingeñero de campo</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium fuga quod molestias sed corrupti nemo at voluptas praesentium, minus dolores optio in provident, nulla dolore distinctio sunt dignissimos quis</p>
-                <button>Conocer Mas</button>
+                <h3>Ingeniero de campo</h3>
+                <p>El mercado de bases de datos es masivo (¡el IDC estima que será de $ 106B + para 2024!) Y MongoDB está a la cabeza de su disrupción. La comunidad de MongoDB está transformando industrias y capacitando a los desarrolladores .</p>
+                <button >Conocer Más</button>
             </div>
         </section>
         <section>
             <div class=pimerPuesto>
                 <h3>Desarrollador Full-Stack</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium fuga quod molestias sed corrupti nemo at voluptas praesentium, minus dolores optio in provident, nulla dolore distinctio sunt dignissimos quis</p>
-                <button>Conocer Mas</button>
+                <p>Buscamos desarrollar una aplicación (iOS & Android).Aceptamos desarrolladores Senior que lideren para formar un equipo a largo plazo.Tenemos experiencia tratando con desarrolladores y sabemos que no esfácil.</p>
+                <button >Conocer Más</button>
             </div>
         </section>
         <section>
             <div class=pimerPuesto>
                 <h3>Data Scientist</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum accusantium fuga quod molestias sed corrupti nemo at voluptas praesentium, minus dolores optio in provident, nulla dolore distinctio sunt dignissimos quis</p>
-                <button>Conocer Mas</button>
+                <p>Transformá las organizaciones de los clientes utilizando las más recientes tecnologías digitales y metodologías, incluyendo cloud, inteligencia artificial, automatización inteligente, DevOps y Agile.</p>
+                <button >Conocer Más</button>
             </div>
         </section>
     </div>
     </main>
 
     
+
     <footer>
         <p class="tituloFooter">Siguenos en nuestras redes</p>
-        <a href="#"><img src="img/Redes/facebook.png" alt="logoFacebook" class="logodosRedes logodosRedesdos"></a>
-        <a href="#"><img src="img/Redes/linkedin.png" alt="logoFacebook" class="logodosRedes logodosRedesdos"></a>
-        <a href="#"><img src="img/Redes/logotipo-de-instagram.png" alt="logoFacebook" class="logodosRedes logodosRedesdos"></a>
+        <a href="#"><img src="img/Redes/facebook.png" alt="logoFacebook" class="logodosRedes"></a>
+        <a href="#"><img src="img/Redes/linkedin.png" alt="logoFacebook" class="logodosRedes"></a>
+        <a href="#"><img src="img/Redes/logotipo-de-instagram.png" alt="logoFacebook" class="logodosRedes"></a>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
 </body>
 </html>

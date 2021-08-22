@@ -87,20 +87,18 @@ body{
     font-weight: 700;
     margin: 0px;
     padding: 0px;
+    margin-bottom: 70px;
   }
+  
+  .espacio{
+    padding: 3px;
+  }
+
 
   .hipervinculos__linksMenuResponsive:focus{
     color: black;
   }
 
-  .navbarMobile{
-  padding-top: 0px; 
-  padding-bottom: 0px; 
-
-  margin: 0px; 
-  }
-
-  
   
 
   .hipervinculosBoots{
@@ -425,7 +423,7 @@ p{
             font-size: 20px;
         }
   }
-  
+
 
   
 
@@ -454,7 +452,7 @@ p{
     
     .botonPaquete{
       margin-top: 50px;
-      width: 500px;
+      width:400px;
       padding-top: 20px;
       padding-bottom: 20px;
       border: darkslategray solid 1px;
@@ -482,6 +480,7 @@ p{
     
     
     /* Estilos RRHH xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
     
     .pimerPuesto{
       width: 300px;
@@ -510,7 +509,7 @@ p{
     }
     
     .pimerPuesto button{
-      width: 300PX;
+      width: 100%;
       padding: 10px;
       border: none;
       background: #F0F8FF;
@@ -671,6 +670,11 @@ p{
       .botonDejarMensajedos{
           display: none;
       }
+
+      .paquetes:hover{
+        background: #E5E7E9;
+        ;
+      }
     
     }
 
@@ -725,16 +729,27 @@ p{
       }
     
       .tituloModificado{
+        display: none;
         font-size: 30px;
         top: 170px;
         left: 40px;
       }
 
+  
       .tituloModificadorrhh{
         font-size: 30px;
         left: 0px;
         top: 100px;
         margin-left: 0px;
+      }
+
+      .titulosPaginas{
+        margin-top: 30px;
+        font-size: 25px;
+      }
+
+      .titulosSecciones{
+        height: 30px;
       }
       
       .imagenCelular{
@@ -754,9 +769,52 @@ p{
         justify-content: start;
       }
 
-      // .elementosMenuRrhh{
-      //   margin-right: 5px;
-      // }
+      .paquetes img{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .botonPaquete{
+        width: 250px;
+        font-size: 15px;
+      }
+
+      .paquetes{
+        margin: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .paquetes:hover{
+        background: #E5E7E9;
+        ;
+      }
+
+      .tamañoMenu{
+        padding: 0px;
+        margin: 0px;
+        height: 135px;
+      }
+
+      .pimerPuesto{
+        width: 270px;
+      }
+
+      
+    .mapa{
+      width: 100%;
+    }
+
+    .datosContacto{
+      width: 300px;
+    }
+
+    .listContacto li{
+      font-size: 15px;
+    }
     
     }  
     

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: 'Lato';
   padding: 0px;
@@ -60,15 +61,14 @@ body {
   color: white;
   font-weight: 700;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  margin-bottom: 70px; }
+
+.espacio {
+  padding: 3px; }
 
 .hipervinculos__linksMenuResponsive:focus {
   color: black; }
-
-.navbarMobile {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin: 0px; }
 
 .hipervinculosBoots {
   margin-top: 20px; }
@@ -325,7 +325,7 @@ footer {
 
 .botonPaquete {
   margin-top: 50px;
-  width: 500px;
+  width: 400px;
   padding-top: 20px;
   padding-bottom: 20px;
   border: darkslategray solid 1px;
@@ -366,7 +366,7 @@ footer {
   font-size: 15px; }
 
 .pimerPuesto button {
-  width: 300PX;
+  width: 100%;
   padding: 10px;
   border: none;
   background: #F0F8FF;
@@ -463,7 +463,9 @@ footer {
   .cajaformulariomensaje {
     display: flex; }
   .botonDejarMensajedos {
-    display: none; } }
+    display: none; }
+  .paquetes:hover {
+    background: #E5E7E9; } }
 
 @media only screen and (max-width: 450px) {
   .botonDejarMensaje {
@@ -491,6 +493,7 @@ footer {
   .seccionesMain__primerSection p {
     margin: 10px; }
   .tituloModificado {
+    display: none;
     font-size: 30px;
     top: 170px;
     left: 40px; }
@@ -499,6 +502,11 @@ footer {
     left: 0px;
     top: 100px;
     margin-left: 0px; }
+  .titulosPaginas {
+    margin-top: 30px;
+    font-size: 25px; }
+  .titulosSecciones {
+    height: 30px; }
   .imagenCelular {
     margin-top: 40px; }
   .teclaMenu {
@@ -507,7 +515,34 @@ footer {
     display: none; }
   .headerBootsRRHH {
     display: flex;
-    justify-content: start; } }
+    justify-content: start; }
+  .paquetes img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .botonPaquete {
+    width: 250px;
+    font-size: 15px; }
+  .paquetes {
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  .paquetes:hover {
+    background: #E5E7E9; }
+  .tamañoMenu {
+    padding: 0px;
+    margin: 0px;
+    height: 135px; }
+  .pimerPuesto {
+    width: 270px; }
+  .mapa {
+    width: 100%; }
+  .datosContacto {
+    width: 300px; }
+  .listContacto li {
+    font-size: 15px; } }
 
 @keyframes efectoMeno {
   0% {
