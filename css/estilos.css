@@ -465,7 +465,9 @@ footer {
   .botonDejarMensajedos {
     display: none; }
   .paquetes:hover {
-    background: #E5E7E9; } }
+    background: #E5E7E9; }
+  .mapa {
+    width: 100%; } }
 
 @media only screen and (max-width: 450px) {
   .botonDejarMensaje {
@@ -540,7 +542,7 @@ footer {
   .mapa {
     width: 100%; }
   .datosContacto {
-    width: 300px; }
+    width: 100%; }
   .listContacto li {
     font-size: 15px; }
   .textoHistoria {
