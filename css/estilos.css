@@ -542,7 +542,9 @@ footer {
   .datosContacto {
     width: 300px; }
   .listContacto li {
-    font-size: 15px; } }
+    font-size: 15px; }
+  .textoHistoria {
+    text-align: center; } }
 
 @keyframes efectoMeno {
   0% {
